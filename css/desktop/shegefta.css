@@ -1,0 +1,102 @@
+.shegefta {
+  width: 100%;
+  height: 345px;
+  background-color: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  .shegefta__center {
+    width: 98%;
+    height: inherit;
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, #e6123d, #c60c31);
+    .shegefta__top {
+      width: 100%;
+      height: 65px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-flow: row wrap;
+      .shegefta__top__svg {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-flow: row wrap;
+        padding: 12px;
+        & h4 {
+          font-family: irani;
+          font-size: 16px;
+          font-weight: 600;
+          color: #fff;
+        }
+      }
+    }
+    .shegefta__bottom {
+      width: 100%;
+      height: 267px;
+      padding-right: 20px;
+      border-left: 3px solid #c60c31;
+      .shegefta__active {
+        border-radius: 8px;
+        width: 586px;
+        .shegefta__items {
+          width: 100%;
+          height: 259px;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: flex-start;
+          justify-content: center;
+          .shegefta__items__top {
+            width: 100%;
+            height: 30px;
+            display: block;
+            text-align: right;
+            line-height: 30px;
+            margin-right: 20px;
+            margin-top: 7px;
+          }
+          .shegefta__items__bottom {
+            width: 585px;
+            height: 229px;
+            background-color: aqua;
+            display: flex;
+            flex-flow: row wrap;
+            .shegefta__items__bottom__right {
+              width: 230px;
+              height: inherit;
+              & img {
+                width: 200px;
+                height: 200px;
+                border-radius: 8px;
+                margin-top: 10px;
+                margin-right: 10px;
+              }
+            }
+            .shegefta__items__bottom__left {
+              width: 290px;
+              height: 229px;
+              display: flex;
+              flex-flow: column nowrap;
+              align-items: flex-start;
+              .shegefta__items__bottom__left__first {
+                width: inherit;
+                height: inherit;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                align-items: center;
+                & p {
+                  font-size: 11px;
+                  font-family: irani;
+                  font-weight: bold;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
