@@ -123,4 +123,7 @@
 .super__market .amazing__supermarket{
   background: linear-gradient(267.6deg,rgba(114, 0, 61, 0.437),rgb(46, 0, 214,1));
 }
+.super__market .amazing__supermarket__2{
+  background: linear-gradient(267.6deg,rgba(155, 148, 0, 0.467),rgb(46, 96, 0));
+}
 

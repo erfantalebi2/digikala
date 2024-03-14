@@ -4,7 +4,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 20px;
   .read__center {
     width: 88%;
     height: inherit;
